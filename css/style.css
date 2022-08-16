@@ -97,16 +97,15 @@ select{
     cursor: progress;
 }
 
-/* buttuon*/
+/* submit buttuon*/
 
-/* From uiverse.io by @adamgiebl */
 div.submit{
     margin-left: 40%;
     margin-top:10%;;
 }
 .cssbuttons-io-button {
-    background: linear-gradient(145deg, #f2efa6, #c5b8ff);
-    color: rgb(0, 0, 0);
+    background:linear-gradient(145deg, #f2efa6, #c5b8ff);
+    color: rgb(3, 0, 44);
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
@@ -138,7 +137,7 @@ div.submit{
     right: 0.3em;
     transition: all 0.3s;
    }
-   open("dev.html")
+   
    .cssbuttons-io-button:hover .icon {
     width: calc(100% - 0.6em);
    }
@@ -146,7 +145,7 @@ div.submit{
    .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #25142c;
+    color: #7b52b9;
    }
    
    .cssbuttons-io-button:hover .icon svg {
