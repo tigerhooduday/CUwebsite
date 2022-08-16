@@ -131,9 +131,8 @@ select:hover{
 /* submit buttuon*/
 
 div.submit{
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-top:5%;;
+    margin-left: 42%;
+    margin-top:5%;
 }
 .cssbuttons-io-button {
     background:linear-gradient(145deg, #f2efa6, #c5b8ff);
@@ -153,6 +152,7 @@ div.submit{
     position: relative;
     height: 2.8em;
     padding-right: 3.3em;
+    
    }
    
    .cssbuttons-io-button .icon {
@@ -202,7 +202,10 @@ div.submit{
         display:flex;
     
     }
-    
+    div.submit{
+        text-align:center;
+        margin-top:100px;;
+    }
    }
    @media only screen and  (max-width: 750px){
     div.slect{
