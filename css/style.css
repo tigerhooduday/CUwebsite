@@ -10,8 +10,8 @@ html{
 }
 nav{
     display:flex;
-    background-color:aqua;
     height: 75px;
+    padding-bottom: 60px;
 
 }
 .nav_left{
@@ -46,6 +46,7 @@ nav{
     background: linear-gradient(145deg, #d6d7ff, #ffd8f7);
     cursor:wait;
 }
+
 div.cu{
     
     font-family: 'Trade Winds', cursive;
@@ -56,13 +57,22 @@ div.cu{
                 margin-bottom:100PX;
       
 }
+div.cu1{
+    padding-left: 100px;
+}
 span.cu{
+    display: block;
+    
     background: linear-gradient(to right, #f32170,
                     #ff6b08, #cf23cf, #eedd44);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             -webkit-text-stroke-width:0.5px;
             -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+span.cu2{
+visibility: hidden;
+
 }
 
 div.slect{
@@ -72,7 +82,7 @@ div.slect{
     
 }
 span.sem{
-    width: 300px;
+    width: 300%;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;   
@@ -157,8 +167,26 @@ div.submit{
    }
    
 
-   @media only screen and  (max-width: 1140px){
+   @media only screen and  (max-width: 1000px){
 
+    span.cu2{
+    visibility:visible
     
+    }  
+    span.cu1{
+        display:none;
+    } 
+    .nav_left{
+        display:flex;
     
+    }
+    
+   }
+   @media only screen and  (max-width: 750px){
+    div.slect{
+        display:block;
+        width:50;
+        margin-left:5%;
+        margin-right:5%;
+    }
    }
