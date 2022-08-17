@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Playball&family=Roboto+Mono:wght@100&family=Trade+Winds&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color:#2b3344;
+    color:#ffffff;
+
+
+}
+nav{
+    display:flex;
+    height: 75px;
+    padding-bottom: 60px;
+
+}
+.nav_left{
+    width:50%;
+    text-align:left;
+    padding:0 23px;
+    background-color: #2b3344;
+}
+.nav_right{
+    width:50%;
+    text-align:right;
+    padding:0 23px;
+    background-color: #f8f8f8;
+}
+.btn{
+    height:40px;
+    width:80px;
+    margin:15px;
+    color: rgb(255, 255, 255);
+    
+    border-radius: 42px;
+    background: linear-gradient(145deg, #4a3b5f, #584771);
+    box-shadow:  24px 24px 65px #584771,
+                -24px -24px 51px #acacac;
+    
+
+
+    font-family: 'Niconne', cursive;
+    font-size:20px;
+    pointer-events: stroke;
+}
+.btn:hover{
+    background: linear-gradient(145deg, #c2c2e2, #ffb9f1);
+    color:black;
+    cursor:wait;
+}
+
+h1.heading{
+    text-align: center;
+    
+}
