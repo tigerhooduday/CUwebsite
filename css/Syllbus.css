@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Playball&family=Roboto+Mono:wght@100&family=Trade+Winds&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Niconne&display=swap');
 *{
     margin: 0;
     padding: 0;
 
 }
 html{
-    background-color:#2b3344;
+    background: linear-gradient(145deg, #020005, #584771);
     color:#ffffff;
 
 
@@ -21,27 +20,23 @@ nav{
     width:10%;
     text-align:left;
     padding:0 23px;
-    background-color: #2b3344;
+    background-color: #020005;
 }
 .nav_right{
     width:50%;
     text-align:right;
-   
-    background-color: #2b3344;
+    
 }
 .btn{
     height:40px;
     width:80px;
-    margin:15px;
+    margin:11px;
     color: rgb(255, 255, 255);
-    
     border-radius: 42px;
-    background: linear-gradient(145deg, #4a3b5f, #584771);
-    box-shadow:  24px 24px 65px #584771,
+    background: linear-gradient(145deg, #020005, #584771);
+    box-shadow:  12px 24px 65px #030008,
                 -24px -24px 51px #acacac;
     
-
-
     font-family: 'Niconne', cursive;
     font-size:20px;
     pointer-events: stroke;
@@ -54,5 +49,30 @@ nav{
 
 h1.heading{
     text-align: center;
+    margin-left: 35%;
+    margin-top: 1.5%;
+    font-family: 'Kalam', cursive;
+    box-shadow:  12px 24px 65px #9c86bf;
     
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
+div.course{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    text-align: justify;
+    font-family: 'Kalam', cursive;
+    font-size:20px;
+    
+}
+
+strong{
+    text-decoration: underline;
+    margin-left:-3%;
+    font-size:20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+@media only screen and  (max-width: 1000px){
+
 }

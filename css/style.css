@@ -20,14 +20,14 @@ nav{
     width:50%;
     text-align:left;
     padding:0 23px;
-    background-color: #4a3b5f;
+    background: linear-gradient(145deg, #020005, #584771);
 
 }
 .nav_right{
     width:50%;
     text-align:right;
     padding:0 23px;
-    background-color: #4a3b5f;
+    background: linear-gradient(145deg, #020005, #584771);
 }
 .btn{
     
@@ -232,7 +232,7 @@ div.submit{
         margin-right:5%;
     }
     .cssbuttons-io-button {
-        margin-left:36%;
+        margin-left:31%;
         margin-top: 10%;
         
     }
