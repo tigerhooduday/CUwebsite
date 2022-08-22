@@ -5,7 +5,8 @@
 
 }
 html{
-    background-color:#52426a;
+    background-image: url(../img/img1.jpg);
+    background-size:100%;
 
 
 }
@@ -19,23 +20,24 @@ nav{
     width:50%;
     text-align:left;
     padding:0 23px;
-    background-color: #52426a;
+    background-color: #4a3b5f;
+
 }
 .nav_right{
     width:50%;
     text-align:right;
     padding:0 23px;
-    background-color: #52426a;
+    background-color: #4a3b5f;
 }
 .btn{
+    
     height:50px;
     width:100px;
-    margin:15px;
+    margin:8px;
     border-radius:50%;
     color: #fff;
     
     border-radius: 42px;
-    border-radius: 43px;
     background: linear-gradient(145deg, #4a3b5f, #584771);
     box-shadow:  24px 24px 51px #211a2a,
                 -24px -24px 51px #836aaa;
@@ -153,7 +155,7 @@ div.submit{
     height: 2.8em;
     padding-right: 3.3em;
 
-    margin-left:43%;
+    margin-left:41%;
     
    }
    
@@ -192,6 +194,11 @@ div.submit{
    
 
    @media only screen and  (max-width: 1000px){
+    html{
+        background-image: url(../img/img5.jpg);
+        background-size: 1000px;
+
+    }
 
     span.cu2{
     visibility:visible
@@ -205,11 +212,17 @@ div.submit{
     
     }
     div.submit{
-        margin-top:50px;;
+        margin-top:50px;
     }
     .cssbuttons-io-button {
-        margin-left:25%;
+        margin-left:39%;
+        margin-top: 30%;
     }
+    span.sem{
+        margin-top: 20%;
+    }
+    
+    
    }
    @media only screen and  (max-width: 750px){
     div.slect{
@@ -217,5 +230,17 @@ div.submit{
         width:50;
         margin-left:5%;
         margin-right:5%;
+    }
+    .cssbuttons-io-button {
+        margin-left:36%;
+        margin-top: 10%;
+        
+    }
+    div.submit{
+        margin-top:0px;
+    }
+    span.sem{
+        margin-top: 0%;   
+        
     }
    }
