@@ -18,7 +18,7 @@ nav{
 
 }
 .nav_left{
-    width:50%;
+    width:10%;
     text-align:left;
     padding:0 23px;
     background-color: #2b3344;
@@ -26,8 +26,8 @@ nav{
 .nav_right{
     width:50%;
     text-align:right;
-    padding:0 23px;
-    background-color: #f8f8f8;
+   
+    background-color: #2b3344;
 }
 .btn{
     height:40px;
