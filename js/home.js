@@ -138,7 +138,7 @@ function submit()
         }
         else if(sub=="WMS"){
             if(breif=="Syllabus"){
-                window.location.href="syllbus/daWMSath.html";
+                window.location.href="syllbus/WMS.html";
             }
             else if(breif == "chapters"){
                 window.location.href="chapters/WMS.html";

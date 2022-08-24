@@ -1,4 +1,45 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Niconne&display=swap');
+
+*{
     margin: 0;
-    overflow: hidden;
+    padding: 0;
   }
+  html{
+    background-image: url(../img/imgdev.jpg);
+    background-size:100%;
+
+}
+.btn{
+  width: 100px;
+  border-color: gold;
+  border-width: 1px;
+  color: rgb(255, 255, 255);  
+  background: linear-gradient(145deg, #020005, #584771);
+  font-size:20px;
+  pointer-events: stroke;
+  text-align: center;
+    margin-left: 1%;
+    margin-top: 1.1%;
+    font-family: 'Kalam', cursive;
+    box-shadow:  12px 24px 65px #9c86bf;
+}
+.btn:hover{
+  background: linear-gradient(145deg, #f6ee4e, #ffffff);
+  color:black;
+
+}
+div.body{
+  display: block;
+  background-color:azure;
+  width: 45%;
+  height:15px;
+  margin-left: 18%;
+}
+
+@media only screen and  (max-width: 1000px){
+  html{
+      background-image: url(../img/imgdev.jpg);
+      background-size: 1000px;
+
+  }
+}

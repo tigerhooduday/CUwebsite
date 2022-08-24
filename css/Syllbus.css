@@ -72,6 +72,25 @@ strong{
     font-size:20px;
     font-family: 'Ubuntu Mono', monospace;
 }
+.btn1{
+    height:40px;
+    width:80px;
+    margin:11px;
+    color: rgb(255, 255, 255);  
+    background: linear-gradient(145deg, #020005, #584771);
+    box-shadow:  12px 24px 65px #030008,
+                -10px -10px 51px #acacac;
+    
+    font-family: 'Kalam', cursive;
+    font-size:20px;
+    pointer-events: stroke;
+}
+.btn1:hover{
+    background: linear-gradient(145deg, #f6ee4e, #ffb9f1);
+    color:black;
+    cursor:wait;
+}
+/* <a href=""><button class="btn1">  Exp 1</button></a> */
 
 @media only screen and  (max-width: 1000px){
 
