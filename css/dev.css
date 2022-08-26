@@ -10,9 +10,11 @@
 
 }
 .btn{
+  display: inline-block;
   width: 100px;
   border-color: gold;
-  border-width: 1px;
+  border-left-width: 0ex;
+  border-right-width: 0ex;
   color: rgb(255, 255, 255);  
   background: linear-gradient(145deg, #020005, #584771);
   font-size:20px;
@@ -28,18 +30,54 @@
   color:black;
 
 }
+
 div.body{
-  display: block;
-  background-color:azure;
-  width: 45%;
-  height:15px;
+  background-color:rgba(255, 255, 255, 0.94);
+  box-shadow:  9px 9px 54px #fff704,
+              -24px -9px 51px #ffffff;
+  width: 19%;
+  height: 250px;
+  border-radius:50%;
   margin-left: 18%;
+}
+img.mypic{
+  width: 90%;
+  height: 250px;
+  border-radius:50%;
+  margin-left: 5%;
+}
+.body1{
+  
+  
 }
 
 @media only screen and  (max-width: 1000px){
   html{
       background-image: url(../img/imgdev.jpg);
       background-size: 1000px;
+
+  }
+  .btn{
+    margin-left: 40%;
+  }
+ 
+  div.body{
+    display: inline-block;
+    width: 45%;
+    height: 180px;
+    border-radius:50%;
+    margin-left: 29%;
+    margin-top:15%;
+    box-shadow:  6px 6px 40px #fff704,
+              -6px -6px 40px #ffffff;
+    
+  }
+  
+  img.mypic{
+    width: 90%;
+    height: 180px;
+    border-radius:50%;
+    margin-left: 5%;
 
   }
 }
