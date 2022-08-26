@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Niconne&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,9 +47,26 @@ img.mypic{
   border-radius:50%;
   margin-left: 5%;
 }
-.body1{
+.bd{
+  display: flex;
   
-  
+}
+span.name{
+  color: white;
+  margin-left: 10%;
+  font-family: 'Rye', cursive;
+  font-size:300%;
+  width: 25%;
+  height: 15%;
+  text-shadow: 5px 5px 10px rgba(124, 1, 181, 0.628);
+  padding-bottom: 100px;
+}
+p.name{
+  padding-bottom: 12px;
+  margin-left: 10%;
+}
+hr{
+  color:#fff704
 }
 
 @media only screen and  (max-width: 1000px){
