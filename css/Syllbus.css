@@ -55,7 +55,7 @@ h1.heading{
     box-shadow:  12px 24px 65px #9c86bf;
     
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 div.lecture{
     width:90%;
     height:200px;
@@ -67,7 +67,8 @@ p.lecture{
     color:#020005;
     margin-left:3%;
     font-size:20px;
-    font-family: 'Ubuntu Mono', monospace;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
 
 }
 iframe{
