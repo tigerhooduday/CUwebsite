@@ -55,6 +55,26 @@ h1.heading{
     box-shadow:  12px 24px 65px #9c86bf;
     
 }
+
+div.lecture{
+    width:90%;
+    height:200px;
+    margin-left:5%;
+    margin-bottom: 2%;
+    background-color:#ffffff;
+}
+p.lecture{
+    color:#020005;
+    margin-left:3%;
+    font-size:20px;
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+iframe{
+    height:175px;
+    width:98%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
 div.course{
     margin-left: 8%;
