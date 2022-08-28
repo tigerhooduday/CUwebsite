@@ -34,12 +34,13 @@
 
 div.body{
   background-color:rgba(255, 255, 255, 0.94);
-  box-shadow:  9px 9px 54px #fff704,
-              -24px -9px 51px #ffffff;
+  box-shadow:  5px 5px 54px #fff704,
+              -18px -4px 51px #ffffff;
   width: 19%;
   height: 250px;
   border-radius:50%;
-  margin-left: 18%;
+  margin-left: 26%;
+  margin-top: 6%;
 }
 img.mypic{
   width: 90%;
@@ -49,6 +50,13 @@ img.mypic{
 }
 .bd{
   display: flex;
+  
+}
+span.Name{
+  width: 27%;
+  height: 18%;
+  padding-left: 5%;
+  padding-top: 0%;
   
 }
 span.name{
@@ -68,6 +76,50 @@ p.name{
 hr{
   color:#fff704
 }
+span.call{
+  display: flex;
+}
+
+
+img.call{
+  width: 10%;
+  margin-top: 06%;
+  margin-left: 28%;
+
+}
+
+img.whatsapp{
+  width: 8%;
+  margin-top: 06%;
+  margin-left: 28%;
+
+}
+img.insta{
+  width: 8%;
+  margin-top: 06%;
+  margin-left: 28%;
+}
+
+img.linkedin{
+  width: 8%;
+  margin-top: 06%;
+  margin-left: 28%;
+
+}
+a.call{
+  margin-left: 5%;
+  text-decoration: none;
+  color:#ffffff;
+  margin-top: 08%;
+  font-family: 'Kalam', cursive;
+  font-size:110%;
+}
+a.call:hover{
+  margin-top: 06%;
+  margin-left:3%;
+  font-size:150%;
+}
+
 
 @media only screen and  (max-width: 1000px){
   html{
@@ -77,13 +129,14 @@ hr{
   }
   .btn{
     margin-left: 40%;
+  
   }
  
   div.body{
     display: inline-block;
     width: 45%;
     height: 180px;
-    border-radius:50%;
+    border-radius: 50%;
     margin-left: 29%;
     margin-top:15%;
     box-shadow:  6px 6px 40px #fff704,
@@ -96,6 +149,25 @@ hr{
     height: 180px;
     border-radius:50%;
     margin-left: 5%;
+    
 
+  }
+  .bd{
+    display: block;
+   
+  }
+  span.Name{
+    width: 20%;
+    height: 18%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+  }
+  p.name{
+    margin-left:19%;
+    
+  }
+  img.call{
+    width: 8%;
   }
 }
