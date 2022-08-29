@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Niconne&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-image: url(../img/imgb.jpg);
+    color:#ffffff;
+    background-size:100%;
+
+
+}
+nav{
+    display:flex;
+    height: 75px;
+    padding-bottom: 60px;
+
+}
+.nav_left{
+    width:10%;
+    text-align:left;
+    padding:0 23px;
+    
+}
+.nav_right{
+    width:50%;
+    text-align:right;
+    
+}
+.btn{
+    height:35px;
+    width:75px;
+    margin:11px;
+    color: rgb(255, 255, 255);
+    border-radius: 42px;
+    background: linear-gradient(145deg, #020005, #584771);
+    box-shadow:  12px 10px 42px #000000,
+                -24px -24px 51px #615f5f;
+    
+    font-family: 'Niconne', cursive;
+    font-size:20px;
+    pointer-events: stroke;
+    border-color:gold;
+}
+.btn:hover{
+    background: linear-gradient(145deg, #c2c2e2, #fc8de6);
+    color:black;
+    cursor:wait;
+    box-shadow:  12px 10px 42px #ffffff,
+                -24px -24px 51px #000000;
+}
+
+h1.heading{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 1.5%;
+    font-family: 'Kalam', cursive;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
+
+strong{
+    text-decoration: underline;
+    
+    font-size:20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+strong.unit{
+    margin-left:45%;
+    font-size: 25px;
+}
