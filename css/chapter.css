@@ -8,14 +8,16 @@
 html{
     background-image: url(../img/imgb.jpg);
     color:#ffffff;
-    background-size:100%;
+    background-size:150%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 
 }
 nav{
     display:flex;
     height: 75px;
-    padding-bottom: 60px;
+    padding-bottom: 9px;
 
 }
 .nav_left{
@@ -60,6 +62,7 @@ h1.heading{
     box-shadow:  12px 24px 65px #9c86bf;
     
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
 
 strong{
@@ -69,6 +72,147 @@ strong{
     font-family: 'Ubuntu Mono', monospace;
 }
 strong.unit{
-    margin-left:45%;
+    
+    margin-left:43%;
     font-size: 25px;
+}
+.btns{
+    
+    margin:11px;
+    color: rgb(255, 255, 255);  
+    background: linear-gradient(145deg, #020005, #584771);
+    box-shadow:  12px 24px 65px #030008,
+                -10px -10px 51px #acacac;
+    
+    font-family: 'Kalam', cursive;
+    font-size:20px;
+    pointer-events: stroke;
+    border-color: gold;
+}
+.btns:hover{
+    background: linear-gradient(145deg, #f6ee4e, #ffb9f1);
+    color:black;
+    cursor:wait;
+}
+.btn1{
+    height:40px;
+    width:80px;
+}
+.btn2{
+    height:40px;
+    width:110px;
+}
+.bt{
+    height:40px;
+    width:40px;
+    float:right;
+}
+
+
+div.pptbutton{
+
+    width:85%;
+    height:100px;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+
+div.ppt{
+
+    width:85%;
+    height:540px;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+p.ppt{
+    color:#ffffff;
+    margin-left:3%;
+    padding-top: 5%;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    display:inline;
+
+}
+iframe{
+    height:100%;
+    width:99%;
+}
+/*
+
+#ppt1_1{
+    visibility: hidden;
+
+}
+#ppt1_2{
+    visibility: hidden;
+
+}
+
+
+ 
+
+#frame1_1{
+    visibility: hidden;
+    height:100%;
+    width:99%;
+}
+#frame1_2{
+    visibility: hidden;
+    height:100%;
+    width:99%;
+}
+*/
+
+@media only screen and  (max-width: 1000px){
+    html{
+        background-image: url(../img/img5.jpg);
+        background-size: 1000px;
+  
+    }
+
+    div.pptbutton{
+
+        width:85%;
+        height:300px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
+    
+    div.ppt{
+    
+        width:85%;
+        height:540px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
+
+    .btns{
+        font-size:12px;
+    }
+    .btn1{
+        height:35px;
+        width:55px;
+    }
+    .btn2{
+        height:35px;
+        width:75px;
+    }
+    .bt{
+        height:20px;
+        width:20px;
+        float:right;
+    }
 }
