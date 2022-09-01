@@ -2,45 +2,7 @@ function Home() {
     window.location.href="../";
 }
 
-//----------------------------------------------
-    //               daa --- unit 1
-//--------------------------------------------
-
-
-/*
-
-//------------------------
-    //ppt 1
-function ppt1_1(){
-    
-    document.getElementById("ppt1_1").style.visibility = "visible";
-    document.getElementById("ppt1_1").style.height = "542px";
-    
-
-
-
-}
-    // stop
-function pptx(){
-    document.getElementById("ppt1_1").style.visibility = "hidden";
-
-}
-
-//------------------------
-
-  //ppt 1
-function ppt1_2(){
-
-    document.getElementById("ppt1_2").style.visibility = "visible";
-    document.getElementById("ppt1_2").style.height = "542px";
-    
-
-}
-    //stop
-function pptx1_2(){
-    document.getElementById("ppt1_2").style.visibility = "hidden";
-}
-*/
+//--------    chapters     ------------------
 function pptx()
 {
     document.getElementById("frame1").style.visibility = "hidden";
@@ -48,6 +10,12 @@ function pptx()
 
 
 }
+
+//----------------------------------------------
+    //               daa --- unit 1
+//--------------------------------------------
+
+
 
 function ppt1_1(){
     document.getElementById("frame1").style.visibility = "visible";
@@ -115,3 +83,50 @@ function ppt2_3(){
     document.getElementById("ppthead").innerHTML = "Lecture topic 2.4";
     document.getElementById("frame1").src="https://drive.google.com/file/d/1QghNNDBLGix-jj7iBJu_9KSpM6yvVi3v/preview";
 }
+
+
+//-----------  PPT 2.5
+function ppt2_5(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "Lecture topic 2.5";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1MqZQspJWcaDWALf1ZMIdtcRBRb_qsWxa/preview";
+}
+
+//-----------  PPT 2.6
+function ppt2_6(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "Lecture topic 2.6";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/16jhfu-HLgbyYoN3Xk0A4ELG3nSaWaBe0/preview";
+}
+
+//-----------  PPT 2.7
+function ppt2_7(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "Lecture topic 2.4";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1WbmVvFiIDWELSq29_ovlbpWB02ozLa-O/preview";
+}
+
+//-----------  PPT 2.8
+function ppt2_8(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "Lecture topic 2.4";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1eXDjW2zS42I52DEijO6TLQ1v6KVSoD9k/preview";
+}
+
+//-----------  PPT AVL TREE
+function pptAVL(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "AVL tree";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/11JDJ9WDFoXsh1NQBQAjykQ9rct3sO6ZK/preview";
+}
+
+
+
+
+
+///-------------------------------------
