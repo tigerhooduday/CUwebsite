@@ -133,7 +133,7 @@ div.DAApptbutton{
 div.sppptbutton{
 
     width:85%;
-    height:160px;
+    height:195px;
     margin-top: 2%;
     margin-left:5%;
     margin-bottom: 2%;
@@ -187,7 +187,7 @@ iframe{
     div.sppptbutton{
 
         width:85%;
-        height:160px;
+        height:310px;
         margin-top: 2%;
         margin-left:5%;
         margin-bottom: 2%;
@@ -212,12 +212,12 @@ iframe{
         margin-right: 0;
     }
     .btn1{
-        height:35px;
+        height:32px;
         width:55px;
     }
     .btn2{
-        height:35px;
-        width:75px;
+        height:32px;
+        width:71px;
     }
     .bt{
         height:20px;

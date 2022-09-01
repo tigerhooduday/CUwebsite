@@ -99,6 +99,37 @@ function SPppt1_2_5(){
     document.getElementById("frame1").src="https://drive.google.com/file/d/1yFhxLU-P5tA_6BcxP4u1ETH0S2SMH9rG/preview";
 }
 
+
+
+//-----------  PPT 1.3.1
+function SPppt1_3_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 1.3.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/12DBISB5HoayCJXctsKqZaetiIyJo1jZI/preview";
+}
+
+//-----------  PPT 1.3.2
+function SPppt1_3_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 1.3.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1GJzdC78E6JHP0Uj1qCW2j68g2rv21heC/preview";
+}
+
+//-----------  PPT 1.3.3
+function SPppt1_3_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 1.3.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1FNSX_A1MLAeG2iXRNfBOxkcgelrcmDJ4/preview";
+}
+
+
+
+
+
+
 //-----------  lecture 1.1.1
 function SPlc1_1_1(){
     document.getElementById("frame1").style.visibility = "visible";
@@ -176,6 +207,39 @@ function SPlc1_2_5(){
     document.getElementById("ppthead").style.visibility = "visible";
     document.getElementById("ppthead").innerHTML = "lecture 1.2.5";
     document.getElementById("frame1").src="https://drive.google.com/file/d/1_j5lqA4A4r6TnGSOY8sFgYv5n5r4Us5i/preview";
+}
+
+//-----------  lecture 1.3.1
+function SPlc1_3_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "lecture 1.3.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1fVyey2YN08L7Mn93ek6sQK2iAU11J08c/preview";
+}
+
+//-----------  lecture 1.3.2
+function SPlc1_3_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "lecture 1.3.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1FZHYL1GJagvSxURMh2eW8QcIhSoOGe-K/preview";
+}
+
+//-----------  lecture 1.3.3
+function SPlc1_3_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "lecture 1.3.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1FZHYL1GJagvSxURMh2eW8QcIhSoOGe-K/preview";
+}
+
+
+//-----------  lecture marcos
+function SPlcmarco(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "Marcos";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1Vh6pn2TzzRcUn4oQIIXHV5GSyl656FJ1/preview";
 }
 
 
