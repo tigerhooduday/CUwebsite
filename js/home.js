@@ -65,9 +65,9 @@ function submit()
     var sub = document.querySelector('#subject').value;
     var sem = document.querySelector('#semster').value;
     var breif = document.querySelector('#Breif').value;
-    if(sem=="Semster5"){
-        if(sub=="DAAth"){
-            if(breif=="Syllabus"){
+    if(sem=="Semster5"){ if(sub=="DAAth"){
+          if(breif=="Syllabus"){
+           
                 window.location.href="syllbus/DAAth.html";
             }
             else if(breif == "chapters"){

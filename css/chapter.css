@@ -102,6 +102,12 @@ strong.unit{
     height:40px;
     width:95px;
 }
+
+.btn3{
+    height:40px;
+    width:115px;
+}
+
 .bt{
     height:40px;
     width:40px;
@@ -140,6 +146,28 @@ div.sppptbutton{
     box-shadow:  12px 24px 65px #9c86bf;
     
 }
+
+div.WMSpptbutton{
+
+    width:85%;
+    height:95px;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+div.OSpptbutton{
+
+    width:85%;
+    height:130px;
+    margin-top: 2%;
+    margin-left:4%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+
 
 div.ppt{
 
@@ -194,6 +222,27 @@ iframe{
         box-shadow:  12px 24px 65px #9c86bf;
         
     }
+
+    div.WMSpptbutton{
+
+        width:85%;
+        height:100px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
+    div.OSpptbutton{
+
+        width:85%;
+        height:280px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
     
     div.ppt{
     
@@ -218,6 +267,10 @@ iframe{
     .btn2{
         height:32px;
         width:71px;
+    }
+    .btn3{
+        height:32px;
+        width:95px;
     }
     .bt{
         height:20px;
