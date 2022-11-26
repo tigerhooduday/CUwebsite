@@ -1,10 +1,10 @@
 function Home() {
     window.location.href="../";
 }
-function funpage() {
+function funpage1() {
     window.location.href="../";
 }
-function funpage1() {
+function funpage() {
     window.location.href="../chapters/OS.html";
 }
 function funpage2() {

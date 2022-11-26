@@ -34,7 +34,7 @@ nav{
 .btn{
     height:35px;
     width:75px;
-    margin:11px;
+    margin:8px;
     color: rgb(255, 255, 255);
     border-radius: 42px;
     background: linear-gradient(145deg, #020005, #584771);
@@ -166,6 +166,28 @@ div.WMSpptbutton{
     box-shadow:  12px 24px 65px #9c86bf;
     
 }
+
+div.MLpptbutton{
+
+    width:85%;
+    height:95px;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #9c86bf;
+    
+}
+
+div.MLpptbutton2{
+
+    width:85%;
+    height:190px;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-bottom: 2%;
+    box-shadow:  12px 24px 65px #7d6a9c;
+    
+}
 div.OSpptbutton{
 
     width:85%;
@@ -246,6 +268,27 @@ iframe{
 
         width:85%;
         height:280px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
+
+    div.MLpptbutton{
+
+        width:85%;
+        height:100px;
+        margin-top: 2%;
+        margin-left:5%;
+        margin-bottom: 2%;
+        box-shadow:  12px 24px 65px #9c86bf;
+        
+    }
+    div.MLpptbutton2{
+
+        width:85%;
+        height:240px;
         margin-top: 2%;
         margin-left:5%;
         margin-bottom: 2%;
