@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&family=Playball&family=Roboto+Mono:wght@100&family=Trade+Winds&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 *{
     margin: 0;
     padding: 0;
 
 }
 html{
-    background-image: url(https://source.unsplash.com/2400x1503/?mountain,stars);
+    background-color: #1a0041;
+    background-image: url(https://source.unsplash.com/2400x1503/?Mountain,Dark);
     background-size:100%;
 
 
@@ -20,26 +23,27 @@ nav{
     width:50%;
     text-align:left;
     padding:0 23px;
-    background: linear-gradient(90deg, #020005, #776592);
+    background: linear-gradient(90deg, #020005, #1a0041);
 
 }
 .nav_right{
     width:50%;
     text-align:right;
     padding:0 23px;
-    background: linear-gradient(90deg,#776592, #020005);
+    background: linear-gradient(90deg,#1a0041, #020005);
 }
 .btn{
     
     height:40px;
     width:90px;
     margin:8px;
-    border-radius:50%;
+    border-left-width: 0ex;
+    border-right-width: 0ex;
     border-color: gold;
     color: #fff;
     
-    border-radius: 42px;
-    background: linear-gradient(145deg, #211a2a, #584771);
+
+    background: linear-gradient(145deg, #211a2a, #1a0041);
     box-shadow:  24px 24px 51px #211a2a,
                 -24px -24px 51px #836aaa;
     
@@ -60,7 +64,7 @@ nav{
 div.cu{
     
     margin-bottom:20px;
-    font-family: 'Trade Winds', cursive;
+    font-family: 'Reggae One', cursive;
     font-size:70px;
     text-align: center;
    
@@ -75,8 +79,9 @@ div.cu1{
 span.cu{
     display: block;
     
-    background: linear-gradient(to right, #f32170,
-                    #ff6b08, #cf23cf, #eedd44);
+
+    background: rgb(149,32,189);
+    background: linear-gradient(90deg, rgb(0, 15, 32) 0%, rgb(95, 3, 87) 89%);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
             -webkit-text-stroke-width:1px;
@@ -104,12 +109,14 @@ span.sem{
 legend{
     border-radius: 43px;
     background: linear-gradient(145deg, #fbf300, #c5b8ff);
+    
     box-shadow:  24px 24px 51px #211a2a,
-                -24px -24px 51px #836aaa;a
+                -24px -24px 51px #836aaa;
 }
 fieldset{
-    border-radius: 43px;
-    background: linear-gradient(145deg, #020005, #584771);
+    border-left-width: 0ex;
+    border-right-width: 0ex;
+    background: linear-gradient(145deg, #020005, #1a0041);
     box-shadow:  24px 24px 51px #211a2a,
                 -24px -24px 51px #836aaa;
     
@@ -124,6 +131,7 @@ select{
     background: transparent;
     color:white;
     text-align: center;
+    
 
     font-family: 'Playball', cursive;
     font-size:20px;
@@ -184,7 +192,7 @@ div.submit{
    .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #7b52b9;
+    color: #0f0025;
    }
    
    .cssbuttons-io-button:hover .icon svg {

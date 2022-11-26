@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Niconne&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +14,7 @@
   width: 100px;
   border-color: gold;
   border-left-width: 0ex;
-  border-right-width: 0ex;
+  border-right-width: 0ex;  
   color: rgb(255, 255, 255);  
   background: linear-gradient(145deg, #020005, #584771);
   font-size:20px;
