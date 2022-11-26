@@ -6,8 +6,8 @@
 
 }
 html{
-    background-image: url(../img/imgb.jpg);
-    color:#ffffff;
+    background-image: url(../img/fogmountain.jpg);
+    color:#000000;
     background-size:150%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -189,7 +189,7 @@ div.ppt{
     
 }
 p.ppt{
-    color:#ffffff;
+    color:#000000;
     margin-left:3%;
     padding-top: 5%;
     font-size:20px;
@@ -205,7 +205,7 @@ iframe{
 
 @media only screen and  (max-width: 1000px){
     html{
-        background-image: url(../img/img5.jpg);
+        background-image: url(../img/imMou.jpg);
         background-size: 1000px;
   
     }
