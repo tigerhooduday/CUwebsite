@@ -207,7 +207,7 @@ div.submit{
 
    @media only screen and  (max-width: 1000px){
     html{
-        background-image: url(../img/bluemountain.jpg);
+        background-image: url(https://images.unsplash.com/photo-1535224206242-487f7090b5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
         background-size: 1600px;
 
     }
