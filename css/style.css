@@ -8,7 +8,8 @@
 }
 html{
     background-color: #1a0041;
-    background-image: url(https://source.unsplash.com/2400x1503/?Mountain,Dark);
+    /* background-image: url(https://source.unsplash.com/2400x1503/?Mountain,Dark); */
+    background-image: url(../img/bluemountain.jpg);
     background-size:100%;
 
 
@@ -206,7 +207,7 @@ div.submit{
 
    @media only screen and  (max-width: 1000px){
     html{
-        background-image: url(https://source.unsplash.com/2400x1503/?mountain,stars);
+        background-image: url(../img/bluemountain.jpg);
         background-size: 1600px;
 
     }
