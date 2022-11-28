@@ -20,6 +20,9 @@ function funpage2() {
 function funpage3() {
     window.location.href="../chapters/WMS3.html";
 }
+function funpage4() {
+    window.location.href="../chapters/WMSbook.html";
+}
 //----------------------------------------
 //              system Programming
 //------------------------------------------
@@ -89,4 +92,150 @@ function wmsppt1_3_3(){
     document.getElementById("ppthead").style.visibility = "visible";
     document.getElementById("ppthead").innerHTML = "PPT 1.3.3";
     document.getElementById("frame1").src="https://drive.google.com/file/d/1s8yLD-gPJOEXX3a45TrlPue-tjzR5tjT/preview";
+}
+
+
+//================ Unit 2 ===============
+//------------------------------------
+function wmsppt2_1_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.1.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1yDv_uS-zy4jTYaLARkP4-WR-75vT00wP/preview";
+}
+function wmsppt2_1_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.1.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1Xx-e8U2vIxd7RllPqnhhlLX9RtTg6FAO/preview";
+}
+function wmsppt2_1_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.1.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/102BtJoNREoOGC50oduaxZVcV52XIxMjA/preview";
+}
+function wmsppt2_1_4(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.1.4";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1fKFz-5wyKopxfJZszqzhZdXgAXoRH_PI/preview";
+}
+function wmsppt2_2_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.2.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1RGONS-PMfOsPSTtCTzZT4TkGaahy2nwg/preview";
+}
+function wmsppt2_2_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.2.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1wEf5BpzdGnH-gxtpBkTJU1V6muuJ3XO5/preview";
+}
+function wmsppt2_2_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.2.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1SFRxAn6t2yKlqPFdveiTpVIPVwYijVdD/preview";
+}
+function wmsppt2_2_4(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 2.2.4";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1CyBUT-Y8vS4xb4OiUBppza2vjpQaQjz4/preview";
+}
+function wmsppt2_3_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1Tz7hZW6MYrUMQdwjRrBP2hmTdVHYGV8y/preview";
+}
+function wmsppt2_3_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1Q78IqB72Siuz06sslpfpdfZm__FFkPQm/preview";
+}
+function wmsppt2_3_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1mzz9Jn2zbeTlkPmA010a8cepW1AKqbJm/preview";
+}
+
+
+//===================== Unit 3
+//===============================
+
+function wmsppt3_1_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.1.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1rL8C4DweI1quhYTDsXk7bJ06KQnp1ROy/preview";
+}
+
+function wmsppt3_1_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.1.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1ew9GoRRn0U8Mi9MaleRBNDalir6uSFhR/preview";
+}
+
+function wmsppt3_1_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.1.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1oCjYHjittnPtOAkL6ulmAi05_107XDIs/preview";
+}
+function wmsppt3_2_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.2.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1PQ1K-UKIW1GDwgbE440i6QmnN7fbUVvh/preview";
+}
+function wmsppt3_2_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.2.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1xHyRPKYEoQmXLeh6o-l92iGWd1pPKJN2/preview";
+}
+
+function wmsppt3_3_1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1QOB2_GjE9CTgpeCfA96KknpAcNb6X5V9/preview";
+}
+function wmsppt3_3_2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1EB9dAE0UbFTC0qFKTYc316vjoKbr5TyQ/preview";
+}
+
+function wmsppt3_3_3(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.3";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1hGRxKnMgcCkTvs5fPgNb3xDuNNMJh7AD/preview";
+}
+function wmsppt3_3_4(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "PPT 3.3.4";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1zdfy4LbAtJ3kkic21YJ8BaTHLogm8NDh/preview";
+}
+
+function wmsbook1(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "BOOK 1";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1q2D1AnlooIAhIqoeF7w03F7pv6L6D_hC/preview";
+}
+function wmsbook2(){
+    document.getElementById("frame1").style.visibility = "visible";
+    document.getElementById("ppthead").style.visibility = "visible";
+    document.getElementById("ppthead").innerHTML = "BOOK 2";
+    document.getElementById("frame1").src="https://drive.google.com/file/d/1iJPZM7wY4LcSGgosX1nn8Ne7rmgeMmK0/preview";
 }
