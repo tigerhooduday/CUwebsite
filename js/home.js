@@ -2,6 +2,9 @@ function dev()
 {
     window.location.href ="dev.html";
 }
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+
 /*function submit1()
 {
     ------------subject-------------  
