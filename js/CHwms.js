@@ -10,6 +10,16 @@ function pptx()
 
 
 }
+
+function funpage1() {
+    window.location.href="../chapters/WMS.html";
+}
+function funpage2() {
+    window.location.href="../chapters/WMS2.html";
+}
+function funpage3() {
+    window.location.href="../chapters/WMS3.html";
+}
 //----------------------------------------
 //              system Programming
 //------------------------------------------
